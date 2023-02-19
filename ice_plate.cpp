@@ -85,6 +85,9 @@ void ICE_Plate::ICE_IPCSDK_OnPlate_call(void *pvParam, const ICE_CHAR *pcIP, con
     pix.loadFromData(arrImg);
     pix.save(QString("c:\\tmp\\%1.jpg").arg(time));
 
+    if(0==strcmp("无牌车",pcNumber)){
+        pcColor="黄色";
+    }
 
     QString tmpData = QString("[U|%1|%2|%3|%4]").arg(QString::number(0),time,QString::fromLocal8Bit(static_cast<const char*>(pcNumber)),QString::fromLocal8Bit(static_cast<const char*>(pcColor)));
     QByteArray tmpArr=tmpData.toLocal8Bit();
