@@ -238,7 +238,7 @@
   </widget>
   <action name="actionSetting">
    <property name="text">
-    <string>Setting</string>
+    <string>设定</string>
    </property>
    <property name="toolTip">
     <string>设置参数</string>
@@ -254,7 +254,7 @@
   </action>
   <action name="actionQuit">
    <property name="text">
-    <string>Quit</string>
+    <string>退出</string>
    </property>
    <property name="toolTip">
     <string>退出程序</string>
@@ -262,7 +262,7 @@
   </action>
   <action name="actionCapture">
    <property name="text">
-    <string>Capture</string>
+    <string>抓拍</string>
    </property>
    <property name="toolTip">
     <string>手动触发</string>
@@ -270,7 +270,7 @@
   </action>
   <action name="actionRestart">
    <property name="text">
-    <string>Restart</string>
+    <string>重启相机</string>
    </property>
    <property name="toolTip">
     <string>重启相机</string>
